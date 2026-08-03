@@ -14,8 +14,28 @@ BOTSHIELD is a web application developed to detect malicious social media bot ac
 - Profile Management
 - Responsive User Interface
 
-## Technologies Used
+## Objectives
+- Machine Learning Model Building
+- Full-Stack Application Development
+- User Authentication and Management
+- Autofill Functionality
+- Data Persistence and Retrieval: To 
 
+## System Requirements
+•	Hardware Requirements:
+o	Processor: Intel Core i3 or equivalent (or higher).
+o	RAM: 4 GB or more.
+o	Storage: At least 10 GB of free disk space.
+o	Network: Stable internet connection.
+•	Software Requirements:
+o	Operating System: Windows, macOS, or Linux.
+o	Backend: Python 3.7+
+o	Frontend: Node.js, npm/yarn.
+o	Database: PostgreSQL server.
+o	Browser: Google Chrome, Mozilla Firefox, or any modern web browser
+
+
+## Technologies Used
 ### Frontend
 
 - React.js
@@ -65,40 +85,13 @@ BOTSHIELD
 ├── README.md
 ├── package.json
 └── requirements.txt
-```
-## Installation
 
-### Clone Repository
+## Scope of the Project
+- Machine Learning-Based Classification
+- Feature Analysis and Engineering
+- Web Application for Detection
+- Visualization and Reporting
 
-```bash
-git clone https://github.com/YourUsername/BOTSHIELD.git
-```
-
-### Move into Project
-
-```bash
-cd BOTSHIELD
-```
-
-### Install Frontend
-
-```bash
-cd client
-npm install
-```
-
-### Install Backend
-
-```bash
-cd ../server
-npm install
-```
-
-### Install Python Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Machine Learning Model
 
@@ -111,11 +104,11 @@ It also provides a confidence score for each prediction.
 
 ## Future Improvements
 
-- Real-time Twitter API Integration
+- Smarter Bot-Catching
+- A Powerful Command Center
 - Deep Learning Models
 - Graph-based Bot Detection
 - Analytics Dashboard
-- Dark Mode
 - Export Prediction Reports
 
 ## Author
@@ -123,4 +116,3 @@ It also provides a confidence score for each prediction.
 **Namita Bone**
 
 GitHub: https://github.com/NamitaBone
-
