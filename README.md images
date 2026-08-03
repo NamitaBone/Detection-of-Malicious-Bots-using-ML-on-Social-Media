@@ -1,1 +1,126 @@
+# BOTSHIELD - Detection of Malicious Social Bots Using Machine Learning
+
+BOTSHIELD is a web application developed to detect malicious social media bot accounts using Machine Learning. The application allows users to register, log in, enter social media account metrics, and predict whether an account is Legitimate or Malicious.
+
+## Features
+
+- User Registration and Login
+- Secure Authentication
+- Dashboard for Bot Detection
+- Machine Learning Prediction
+- Confidence Score Display
+- View Prediction History
+- User Management
+- Profile Management
+- Responsive User Interface
+
+## Technologies Used
+
+### Frontend
+
+- React.js
+- HTML5
+- CSS3
+- Bootstrap
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Database
+
+- MongoDB
+
+### Machine Learning
+
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+
+## Input Features
+
+The model predicts whether an account is malicious using:
+
+- Username
+- Followers Count
+- Following Count
+- Tweets Posted
+- Media Tweets
+- Replies Count
+- Engagement Time
+- Likes Given
+- Likes Received
+- Retweets
+
+## Project Structure
+
+BOTSHIELD
+│
+├── client
+├── server
+├── model
+├── screenshots
+├── README.md
+├── package.json
+└── requirements.txt
+```
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/YourUsername/BOTSHIELD.git
+```
+
+### Move into Project
+
+```bash
+cd BOTSHIELD
+```
+
+### Install Frontend
+
+```bash
+cd client
+npm install
+```
+
+### Install Backend
+
+```bash
+cd ../server
+npm install
+```
+
+### Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Machine Learning Model
+
+The trained Machine Learning model analyzes social media account statistics and classifies them as:
+
+- Legitimate User
+- Malicious Bot
+
+It also provides a confidence score for each prediction.
+
+## Future Improvements
+
+- Real-time Twitter API Integration
+- Deep Learning Models
+- Graph-based Bot Detection
+- Analytics Dashboard
+- Dark Mode
+- Export Prediction Reports
+
+## Author
+
+**Namita Bone**
+
+GitHub: https://github.com/NamitaBone
 
